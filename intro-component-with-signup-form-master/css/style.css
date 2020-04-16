@@ -1,0 +1,35 @@
+body{
+  background-image: url("../images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.title{
+  padding-top: 250px;
+  padding-left: 250px;
+  color:white;
+  font-size: 45px;
+}
+
+.description{
+  color: white;
+  font-size: 18px;
+  padding-left:250px;
+}
+
+
+
+/*Form*/.card-header{
+text-align: center;
+}
+
+.terms{
+  color:white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.service{
+  color:red;
+}

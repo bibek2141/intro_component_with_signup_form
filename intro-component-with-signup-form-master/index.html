@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!---Bootstap scripts-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- CSS-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--Google Fonts-->
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+
+  
+</head>
+
+<body>
+
+
+  <!--Header-->
+  <div class="row">
+    <div class="Header col-6">
+      <p class="title">Learn to code by watching others</p>
+      <p class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</p>
+    </div>
+
+    <div class="Header col-6">
+
+      <div class="card text-white bg-primary mb-3" style="max-width: 25rem; top:140px;left:80px">
+        <div class="card-header">Try it free 7 days then $20/mo. thereafter</div>
+      </div>
+          <div class="box">
+            <form class="px-4 py-3 " method="post" onsubmit="return formValidation();" style="margin-top:150px; max-width:25rem; margin-left:70px;">
+              <div class="form-group">
+                <input type="text" class="form-control" id="fname" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="lname" placeholder="Last Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-primary" style="text-align:center; max-width:354px; width: 380px;">Claim your free trial</button>
+              <p class="terms">  By clicking the button, you are agreeing to our
+                <span class="service">Terms and Services</span></p>
+            </form>
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="validation.js"></script>
+
+</body>
+
+</html>
